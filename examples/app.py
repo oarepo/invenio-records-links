@@ -2,14 +2,14 @@
 #
 # Copyright (C) 2019 Mirek Simek.
 #
-# oarepo-links is free software; you can redistribute it and/or modify it
+# invenio-records-links is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
 """Minimal Flask application example.
 
 SPHINX-START
 
-First install oarepo-links, setup the application and load
+First install invenio-records-links, setup the application and load
 fixture data by running:
 
 .. code-block:: console
@@ -46,11 +46,9 @@ from __future__ import absolute_import, print_function
 from flask import Flask
 from flask_babelex import Babel
 
-from oarepo_links import oarepolinks
-from oarepo_links.views import blueprint
+from invenio_records_links import RecordsLinks
 
 # Create Flask application
 app = Flask(__name__)
 Babel(app)
-oarepolinks(app)
-app.register_blueprint(blueprint)
+RecordsLinks(app)

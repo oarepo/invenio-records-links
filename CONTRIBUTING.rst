@@ -10,7 +10,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/CESNET/invenio-oarepo-links/issues.
+Report bugs at https://github.com/CESNET/invenio-records-links/issues.
 
 If you are reporting a bug, please include:
 
@@ -33,15 +33,15 @@ is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-oarepo-links could always use more documentation, whether as part of the
-official oarepo-links docs, in docstrings, or even on the web in blog posts,
+invenio-records-links could always use more documentation, whether as part of the
+official invenio-records-links docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
 The best way to send feedback is to file an issue at
-https://github.com/CESNET/invenio-oarepo-links/issues.
+https://github.com/CESNET/invenio-records-links/issues.
 
 If you are proposing a feature:
 
@@ -53,14 +53,14 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `oarepo-links` for local development.
+Ready to contribute? Here's how to set up `records-links` for local development.
 
-1. Fork the `CESNET/invenio-oarepo-links` repo on GitHub.
+1. Fork the `CESNET/invenio-records-links` repo on GitHub.
 2. Clone your fork locally:
 
    .. code-block:: console
 
-      $ git clone git@github.com:your_name_here/oarepo-links.git
+      $ git clone git@github.com:your_name_here/invenio-records-links.git
 
 3. Install your local copy into a virtualenv. Assuming you have
    virtualenvwrapper installed, this is how you set up your fork for local
@@ -68,8 +68,8 @@ Ready to contribute? Here's how to set up `oarepo-links` for local development.
 
    .. code-block:: console
 
-      $ mkvirtualenv oarepo-links
-      $ cd oarepo-links/
+      $ mkvirtualenv invenio-records-links
+      $ cd invenio-records-links/
       $ pip install -e .[all]
 
 4. Create a branch for local development:
@@ -114,5 +114,5 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring.
 3. The pull request should work for Python 2.7, 3.5 and 3.6. Check
-   https://travis-ci.org/CESNET/invenio-oarepo-links/pull_requests
+   https://travis-ci.org/CESNET/invenio-records-links/pull_requests
    and make sure that the tests pass for all supported Python versions.

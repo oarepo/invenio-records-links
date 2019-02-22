@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2019 Mirek Simek.
 #
-# oarepo-links is free software; you can redistribute it and/or modify it
+# invenio-records-links is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
 """Sphinx configuration."""
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'oarepo-links'
+project = u'invenio-records-links'
 copyright = u'2019, Mirek Simek'
 author = u'Mirek Simek'
 
@@ -60,7 +60,7 @@ author = u'Mirek Simek'
 # Get the version string. Cannot be done with import!
 g = {}
 with open(os.path.join(os.path.dirname(__file__), '..',
-                       'oarepo_links', 'version.py'),
+                       'invenio_records_links', 'version.py'),
           'rt') as fp:
     exec(fp.read(), g)
     version = g['__version__']
@@ -117,15 +117,15 @@ todo_include_todos = False
 html_theme = 'alabaster'
 
 html_theme_options = {
-    'description': 'A generic links module for OARepo',
+    'description': 'A generic links module for Invenio',
     'github_user': 'inveniosoftware',
-    'github_repo': 'oarepo-links',
+    'github_repo': 'invenio-records-links',
     'github_button': False,
     'github_banner': True,
     'show_powered_by': False,
     'extra_nav_links': {
-        'oarepo-links@GitHub': 'https://github.com/CESNET/invenio-oarepo-links',
-        'oarepo-links@PyPI': 'https://pypi.python.org/pypi/oarepo-links/',
+        'invenio-records-links@GitHub': 'https://github.com/CESNET/invenio-invenio-records-links',
+        'invenio-records-links@PyPI': 'https://pypi.python.org/pypi/invenio-records-links/',
     }
 }
 
@@ -230,7 +230,7 @@ html_sidebars = {
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'oarepo-links_namedoc'
+htmlhelp_basename = 'invenio-records-links_namedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -252,7 +252,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'oarepo-links.tex', u'oarepo-links Documentation',
+    (master_doc, 'invenio-records-links.tex', u'invenio-records-links Documentation',
      u'Mirek Simek', 'manual'),
 ]
 
@@ -282,7 +282,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'oarepo-links', u'oarepo-links Documentation',
+    (master_doc, 'invenio-records-links', u'invenio-records-links Documentation',
      [author], 1)
 ]
 
@@ -296,8 +296,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'oarepo-links', u'oarepo-links Documentation',
-     author, 'oarepo-links', 'A generic links module for OARepo',
+    (master_doc, 'invenio-records-links', u'invenio-records-links Documentation',
+     author, 'invenio-records-links', 'A generic links module for Invenio',
      'Miscellaneous'),
 ]
 

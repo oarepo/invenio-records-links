@@ -127,9 +127,9 @@ if "%1" == "qthelp" (
 	echo.
 	echo.Build finished; now you can run "qcollectiongenerator" with the ^
 .qhcp project file in %BUILDDIR%/qthelp, like this:
-	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\oarepo-links.qhcp
+	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\invenio-records-links.qhcp
 	echo.To view the help file:
-	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\oarepo-links.ghc
+	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\invenio-records-links.ghc
 	goto end
 )
 

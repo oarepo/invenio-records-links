@@ -2,10 +2,10 @@
 #
 # Copyright (C) 2019 Mirek Simek.
 #
-# oarepo-links is free software; you can redistribute it and/or modify it
+# invenio-records-links is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
-"""A generic links module for OARepo"""
+"""A generic links module for Invenio"""
 
 import os
 
@@ -49,12 +49,12 @@ packages = find_packages()
 
 # Get the version string. Cannot be done with import!
 g = {}
-with open(os.path.join('oarepo_links', 'version.py'), 'rt') as fp:
+with open(os.path.join('invenio_records_links', 'version.py'), 'rt') as fp:
     exec(fp.read(), g)
     version = g['__version__']
 
 setup(
-    name='oarepo-links',
+    name='invenio-records-links',
     version=version,
     description=__doc__,
     long_description=readme + '\n\n' + history,
@@ -62,19 +62,19 @@ setup(
     license='MIT',
     author='Mirek Simek',
     author_email='miroslav.simek@vscht.cz',
-    url='https://github.com/CESNET/invenio-oarepo-links',
+    url='https://github.com/CESNET/invenio-invenio-records-links',
     packages=packages,
     zip_safe=False,
     include_package_data=True,
     platforms='any',
     entry_points={
         'invenio_base.apps': [
-            'oarepo_links = oarepo_links:oarepolinks',
+            'invenio_records_links = invenio_records_links:RecordsLinks',
         ],
         'invenio_base.blueprints': [
         ],
         'invenio_i18n.translations': [
-            'messages = oarepo_links',
+            'messages = invenio_records_links',
         ],
     },
     extras_require=extras_require,

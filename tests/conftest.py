@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2019 Mirek Simek.
 #
-# oarepo-links is free software; you can redistribute it and/or modify it
+# invenio-records-links is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
 """Pytest configuration.
@@ -20,8 +20,7 @@ import pytest
 from flask import Flask
 from flask_babelex import Babel
 
-from oarepo_links import oarepolinks
-from oarepo_links.views import blueprint
+from invenio_records_links import RecordsLinks
 
 
 @pytest.fixture(scope='module')
@@ -40,7 +39,6 @@ def create_app(instance_path):
         app = Flask('testapp', instance_path=instance_path)
         app.config.update(**config)
         Babel(app)
-        oarepolinks(app)
-        app.register_blueprint(blueprint)
+        RecordsLinks(app)
         return app
     return factory

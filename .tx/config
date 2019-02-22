@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2019 Mirek Simek.
 #
-# oarepo-links is free software; you can redistribute it and/or modify it
+# invenio-records-links is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
 # TODO: Transifex integration
@@ -25,8 +25,8 @@
 [main]
 host = https://www.transifex.com
 
-[invenio.oarepo-links-messages]
-file_filter = oarepo_links/translations/<lang>/LC_MESSAGES/messages.po
-source_file = oarepo_links/translations/messages.pot
+[invenio.invenio-records-links-messages]
+file_filter = invenio_records_links/translations/<lang>/LC_MESSAGES/messages.po
+source_file = invenio_records_links/translations/messages.pot
 source_lang = en
 type = PO

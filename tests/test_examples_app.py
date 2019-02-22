@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2019 Mirek Simek.
 #
-# oarepo-links is free software; you can redistribute it and/or modify it
+# invenio-records-links is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
 """Test example app."""
@@ -53,4 +53,4 @@ def test_example_app_role_admin(example_app):
     """Test example app."""
     cmd = 'curl http://0.0.0.0:5000/'
     output = subprocess.check_output(cmd, shell=True)
-    assert b'Welcome to oarepo-links' in output
+    assert b'Welcome to invenio-records-links' in output
