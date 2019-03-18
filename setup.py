@@ -61,7 +61,7 @@ setup(
     license='MIT',
     author='Mirek Simek',
     author_email='miroslav.simek@vscht.cz',
-    url='https://github.com/CESNET/invenio-invenio-records-links',
+    url='https://github.com/oarepo/invenio-records-links',
     packages=packages,
     zip_safe=False,
     include_package_data=True,

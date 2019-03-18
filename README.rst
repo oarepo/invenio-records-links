@@ -8,20 +8,20 @@
  invenio-records-links
 ==============
 
-.. image:: https://img.shields.io/travis/CESNET/invenio-invenio-records-links.svg
-        :target: https://travis-ci.org/CESNET/invenio-invenio-records-links
+.. image:: https://img.shields.io/travis/oarepo/invenio-invenio-records-links.svg
+        :target: https://travis-ci.org/oarepo/invenio-invenio-records-links
 
-.. image:: https://img.shields.io/coveralls/CESNET/invenio-invenio-records-links.svg
-        :target: https://coveralls.io/r/CESNET/invenio-invenio-records-links
+.. image:: https://img.shields.io/coveralls/oarepo/invenio-invenio-records-links.svg
+        :target: https://coveralls.io/r/oarepo/invenio-invenio-records-links
 
-.. image:: https://img.shields.io/github/tag/CESNET/invenio-invenio-records-links.svg
-        :target: https://github.com/CESNET/invenio-invenio-records-links/releases
+.. image:: https://img.shields.io/github/tag/oarepo/invenio-invenio-records-links.svg
+        :target: https://github.com/oarepo/invenio-invenio-records-links/releases
 
 .. image:: https://img.shields.io/pypi/dm/invenio-records-links.svg
         :target: https://pypi.python.org/pypi/invenio-records-links
 
-.. image:: https://img.shields.io/github/license/CESNET/invenio-invenio-records-links.svg
-        :target: https://github.com/CESNET/invenio-invenio-records-links/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/oarepo/invenio-invenio-records-links.svg
+        :target: https://github.com/oarepo/invenio-invenio-records-links/blob/master/LICENSE
 
 A generic links module for Invenio Repository
 

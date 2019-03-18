@@ -57,5 +57,5 @@ deploy:
   on:
     tags: true
     python: "2.7"
-    repo: CESNET/invenio-records-links
+    repo: oarepo/invenio-records-links
     condition: $DEPLOY = true
